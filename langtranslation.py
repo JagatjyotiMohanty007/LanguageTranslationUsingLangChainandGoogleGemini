@@ -1,7 +1,7 @@
 from langchain_core.messages import HumanMessage, SystemMessage
 import os
 from langchain_google_genai import ChatGoogleGenerativeAI
-os.environ["GOOGLE_API_KEY"] = "AQ.Ab8RN6KMtf433dF2CCrLSo3XGMW0-PrTQogpcZ2tQNmp9JZlHg"
+os.environ["GOOGLE_API_KEY"] = "give ur key here else u can read it from .evn file"
 
 model = ChatGoogleGenerativeAI(
     model="gemini-3.5-flash",
